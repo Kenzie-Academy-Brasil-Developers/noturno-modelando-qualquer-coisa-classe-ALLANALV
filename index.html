@@ -6,16 +6,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/style.css">
-        <title>sabor Brasileiro</title>
+        <title>Delivery</title>
     </head>
     <body>
-       <form action="">
-            <label for="pedidoCliente">Pedido: </label>
-            <input type="text" id="pedidoCliente" placeholder="Faça seu pedido" required> 
-            <label for="criticaCliente">FeedBack: </label>
-            <input type="text" id="criticaCliente"> <br>
-            <input type="submit" id="button" value="Enviar">
-       </form>
+        <header>
+            <div class="marca">
+                <h1>DELIVERY</h1>
+            </div>
+            <nav class="menuPrincipal">
+                <ul>
+                    <li>
+                        <img src="" alt="">
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <a href="">Promoções</a>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <a href="">Contatos</a>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <a href="">Favoritos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+       <main class="container">
+            <div class="container_Restaurante Restaurante1">
+                <h2>Sabor Brasileiro</h2>
+                <form action="">
+                    <label for="pedidoCliente">Pedido: </label>
+                    <input type="text" id="pedidoCliente" placeholder="Faça seu pedido" required> 
+                    <label for="criticaCliente">FeedBack: </label>
+                    <input type="text" id="criticaCliente" placeholder="comente aqui"> <br>
+                    
+                    <input type="submit" id="button" value="Enviar">
+                </form>
+            </div>
+            <div class="container_Comentario">
+                <h2>comentários</h2>
+            </div>
+            <div class="container_Restaurante Restaurante2">
+                <h2>Fast Food</h2>
+                <form action="">
+                    <label for="pFastFood">Pedido: </label>
+                    <input type="text" id="pFastFood" placeholder="Faça seu pedido" required> 
+                    <label for="pcritica">FeedBack: </label>
+                    <input type="text" id="cFastFood" placeholder="comente aqui"> <br>
+                    
+                    <input type="submit" id="button_rest2" value="Enviar">
+                </form>
+            </div>
+       </main>
         <script src="./script.js"></script>
     </body>
 </html>
